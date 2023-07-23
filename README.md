@@ -40,5 +40,7 @@ https://www.docker.com/products/docker-desktop/
         docker-compose down -v 
         ```
 ## Эндпоинты
-http://127.0.0.1/api/v1/digest_for_userid_<int:user_id>/ - метод POST, Генерация дайджеста для пользователя(укажите user_id)
-http://127.0.0.1/api/v1/get_all_digest/ - метод GET, Получение всех сгенерированных дайджестов 
+ ```
+http://127.0.0.1/api/v1/digest_for_userid_<user_id>/ - метод POST, Генерация дайджеста для пользователя(укажите user_id)
+http://127.0.0.1/api/v1/get_all_digest/ - метод GET, Получение всех сгенерированных дайджестов
+ ```
