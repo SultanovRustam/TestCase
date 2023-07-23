@@ -1,0 +1,312 @@
+[
+{
+  "model": "digest.user",
+  "pk": 1,
+  "fields": {
+    "name": "Иван"
+  }
+},
+{
+  "model": "digest.user",
+  "pk": 2,
+  "fields": {
+    "name": "Антон"
+  }
+},
+{
+  "model": "digest.user",
+  "pk": 3,
+  "fields": {
+    "name": "Алексей"
+  }
+},
+{
+  "model": "digest.user",
+  "pk": 4,
+  "fields": {
+    "name": "Вадим"
+  }
+},
+{
+  "model": "digest.user",
+  "pk": 5,
+  "fields": {
+    "name": "Елена"
+  }
+},
+{
+  "model": "digest.source",
+  "pk": 1,
+  "fields": {
+    "name": "Хабр",
+    "link": "https://habr.com/ru/all/"
+  }
+},
+{
+  "model": "digest.source",
+  "pk": 2,
+  "fields": {
+    "name": "Tproger",
+    "link": "https://tproger.ru/"
+  }
+},
+{
+  "model": "digest.source",
+  "pk": 3,
+  "fields": {
+    "name": "Stepik",
+    "link": "https://stepik.org/catalog"
+  }
+},
+{
+  "model": "digest.source",
+  "pk": 4,
+  "fields": {
+    "name": "Pikabu",
+    "link": "https://pikabu.ru/"
+  }
+},
+{
+  "model": "digest.source",
+  "pk": 5,
+  "fields": {
+    "name": "Дзен",
+    "link": "https://dzen.ru/"
+  }
+},
+{
+  "model": "digest.post",
+  "pk": 1,
+  "fields": {
+    "content": "Марсоходы сделали множество интересных открытий. Нельзя забывать и о летательном аппарате Ingenuity, который значительно превысил запланированный учеными срок службы на Марсе. Что касается последнего, то уже сейчас разрабатываются более совершенные устройства, которые будут летать в атмосфере Марса, Титана, и, возможно, других планет и спутников Солнечной системы.\r\n\r\nА вот ситуация с роверами несколько отличается. Дело в том, что у них есть один существенный недостаток — колесная система. Осколки горных пород, выступы нередко повреждают колеса, в результате чего те постепенно изнашиваются. Решением этой проблемы может быть разработка клонов роботов-собак от Boston Dynamics. Причем это будут «исследовательские тройки», состоящие из систем с разными возможностями и функциональностью. Прототипы роботов готовы уже сейчас, и они проходят испытания.",
+    "popularity": 85,
+    "source": 1
+  }
+},
+{
+  "model": "digest.post",
+  "pk": 2,
+  "fields": {
+    "content": "GitHub объявил о доступности бета-версии Copilot X с чат-ботом на основе ChatGPT для всех бизнес-пользователей в Visual Studio и VS Code.",
+    "popularity": 56,
+    "source": 1
+  }
+},
+{
+  "model": "digest.post",
+  "pk": 3,
+  "fields": {
+    "content": "Почему специалисты мидл-уровня исчезли с рынка. Казалось бы, мы должны были увидеть больше кандидатов в активном поиске. Однако запрос рынка на хороших разработчиков, DevOps-инженеров, тестировщиков ПО, менеджеров продукта, особенно уровня middle, всё ещё гораздо больше, чем объём высвободившихся специалистов. Плюс уехали те, кто имеет возможность работать удаленно. Где же адекватные специалисты-мидлы? — рассуждает Анна Савельева, HR-партнер ИТ-компании «Биорг» (Beorg Smart Vision).",
+    "popularity": 79,
+    "source": 2
+  }
+},
+{
+  "model": "digest.post",
+  "pk": 4,
+  "fields": {
+    "content": "test",
+    "popularity": 88,
+    "source": 2
+  }
+},
+{
+  "model": "digest.post",
+  "pk": 5,
+  "fields": {
+    "content": "Основы программирования на C++.Курс освещает основы программирования на языке C++, создан для желающих изучить программирование с нуля.",
+    "popularity": 99,
+    "source": 3
+  }
+},
+{
+  "model": "digest.post",
+  "pk": 6,
+  "fields": {
+    "content": "Основы Linux. Linux является основой, без которой невозможно представить работу с современным стеком технологий. Всё больше организаций внедряют в свою работу облачные решения, контейнеризацию и оркестрацию, работа которых невозможна без Linux.",
+    "popularity": 56,
+    "source": 3
+  }
+},
+{
+  "model": "digest.post",
+  "pk": 7,
+  "fields": {
+    "content": "Баян",
+    "popularity": 90,
+    "source": 4
+  }
+},
+{
+  "model": "digest.post",
+  "pk": 8,
+  "fields": {
+    "content": "котики",
+    "popularity": 100,
+    "source": 4
+  }
+},
+{
+  "model": "digest.post",
+  "pk": 9,
+  "fields": {
+    "content": "Куда поехать отдыхать",
+    "popularity": 81,
+    "source": 5
+  }
+},
+{
+  "model": "digest.post",
+  "pk": 10,
+  "fields": {
+    "content": "Куда поехать отдыхать",
+    "popularity": 12,
+    "source": 5
+  }
+},
+{
+  "model": "digest.subscription",
+  "pk": 1,
+  "fields": {
+    "name": "Хабр",
+    "source": 1,
+    "user": 1
+  }
+},
+{
+  "model": "digest.subscription",
+  "pk": 2,
+  "fields": {
+    "name": "Tproger для Иван",
+    "source": 2,
+    "user": 1
+  }
+},
+{
+  "model": "digest.subscription",
+  "pk": 3,
+  "fields": {
+    "name": "Пикабу для Иван",
+    "source": 4,
+    "user": 1
+  }
+},
+{
+  "model": "digest.subscription",
+  "pk": 4,
+  "fields": {
+    "name": "Stepik для Иван",
+    "source": 3,
+    "user": 1
+  }
+},
+{
+  "model": "digest.subscription",
+  "pk": 5,
+  "fields": {
+    "name": "Дзен для Вадим",
+    "source": 5,
+    "user": 4
+  }
+},
+{
+  "model": "digest.digest",
+  "pk": 1,
+  "fields": {
+    "user": 1,
+    "posts": [
+      1
+    ]
+  }
+},
+{
+  "model": "digest.digest",
+  "pk": 14,
+  "fields": {
+    "user": 1,
+    "posts": [
+      1,
+      4,
+      5,
+      7,
+      8
+    ]
+  }
+},
+{
+  "model": "digest.digest",
+  "pk": 15,
+  "fields": {
+    "user": 2,
+    "posts": []
+  }
+},
+{
+  "model": "digest.digest",
+  "pk": 16,
+  "fields": {
+    "user": 3,
+    "posts": []
+  }
+},
+{
+  "model": "digest.digest",
+  "pk": 17,
+  "fields": {
+    "user": 4,
+    "posts": [
+      9
+    ]
+  }
+},
+{
+  "model": "digest.digest",
+  "pk": 18,
+  "fields": {
+    "user": 1,
+    "posts": [
+      1,
+      4,
+      5,
+      7,
+      8
+    ]
+  }
+},
+{
+  "model": "digest.digest",
+  "pk": 19,
+  "fields": {
+    "user": 1,
+    "posts": [
+      1,
+      4,
+      5,
+      7,
+      8
+    ]
+  }
+},
+{
+  "model": "digest.digest",
+  "pk": 20,
+  "fields": {
+    "user": 1,
+    "posts": [
+      1,
+      4,
+      5,
+      7,
+      8
+    ]
+  }
+},
+{
+  "model": "digest.digest",
+  "pk": 21,
+  "fields": {
+    "user": 5,
+    "posts": []
+  }
+}
+]
